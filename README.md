@@ -1,10 +1,10 @@
 
 # Simple RESTful API
 
-Store API is a Flask-based RESTful API that allows for basic perations 
-on items, stores, tags, and users. It is designed using Flask's blueprint
+Store API is a Flask-based RESTful API allowing basic operations 
+on items, stores, tags, and users. It uses Flask's blueprint
 pattern and integrates JWT authentication for secure access.  
-For more documentation You can find sufficient comments inside the project. Also since we use Flask-Smorest, you can find the OpenAPI specification 
+For more documentation, You can find sufficient comments on the project. Also since we use Flask-Smorest, you can find the OpenAPI specification 
 by running the project and visiting `http://127.0.0.1:5000/swagger-ui`
 
 ## Tools & Libraries Used
@@ -65,9 +65,9 @@ for convenience.
 
 ## Docker Support
 
-A `Dockerfile` is provided for containerizing the application. you can also sync you project folder
-with the container volume so whenever you made a change, the program restarts automatically
-so you don't have to do that manually. for that, first create an image from dockerfile
+A `Dockerfile` is provided for containerizing the application. you can also sync your project folder
+with the container volume so whenever you make a change, the program restarts automatically
+so you don't have to do that manually. for that, first, create an image from dockerfile
 ```dockerfile
 docker build -t store-api .
 ```

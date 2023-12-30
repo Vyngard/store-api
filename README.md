@@ -4,7 +4,7 @@
 Store API is a Flask-based RESTful API allowing basic operations 
 on items, stores, tags, and users. It uses Flask's blueprint
 pattern and integrates JWT authentication for secure access.  
-For more documentation, You can find sufficient comments on the project. Also since we use Flask-Smorest, you can find the OpenAPI specification 
+For more documentation, You can find sufficient comments on the project. Also since I use Flask-Smorest, you can find the OpenAPI specification 
 by running the project and visiting `http://127.0.0.1:5000/swagger-ui`
 
 ## Tools & Libraries Used

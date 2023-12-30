@@ -1,5 +1,5 @@
 
-# Simple RESTful API
+# RESTful API
 
 Store API is a Flask-based RESTful API allowing basic operations 
 on items, stores, tags, and users. It uses Flask's blueprint
